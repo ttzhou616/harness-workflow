@@ -1,7 +1,7 @@
 ---
-name: hermes-harness-kanban
-version: 3.3.0
-description: "Harness Engineering 多智能体自动开发工作流 — Kanban 版。用户一句话需求 → Board → Dispatcher → 3 Worker 协作。fix-log 管道状态机 + 跨轮经验传递（Supermemory 知识图谱）+ DO/DON'T/PREFER 格式归档。"
+name: harness-workflow
+version: 3.2.0
+description: "Harness 多 Agent 开发工作流。用户一句话需求 → Board → Dispatcher → 3 Worker 协作。fix-log 管道状态机 + 跨轮经验传递（Supermemory 知识图谱）+ DO/DON'T/PREFER 格式归档。"
 author: "Hermes"
 license: MIT
 platforms: [linux, macos, windows]
