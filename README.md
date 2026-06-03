@@ -98,8 +98,6 @@ harness-workflow/
 
 ## Claude Code Agent Teams 版
 
-> ⚠️ 限制：Agent Teams 是同步模式，关闭 CLI 团队即销毁。适合开着终端盯完的场景。需要持久异步调度请用 Hermes 原版。
-
 ### 前置条件
 
 - Claude Code v2.1.32+
