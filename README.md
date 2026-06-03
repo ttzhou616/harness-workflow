@@ -131,17 +131,6 @@ Lead（你当前会话，加载 harness-workflow SKILL.md 作为编导）
       PASS → git commit / FAIL → Lead 创建修复任务
 ```
 
-### 与 Hermes 原版的区别
-
-| | Hermes 原版 | Claude Code 版 |
-|---|---|---|
-| 调度 | Kanban Dispatcher 自动 | Lead 手动协调 |
-| 持久性 | ✅ 关终端继续跑 | ❌ 团队随会话销毁 |
-| 修复循环 | Tester 自治创建修复任务 | Lead 手动 spawn 修复队友 |
-| Worker 通信 | Board comment + fix-log.json | Agent Teams 直接消息 |
-| 记忆 | Supermemory auto recall | 手动查 Supermemory MCP |
-| 任务队列 | Kanban Board (SQLite) | 共享任务列表（文件锁） |
-
 ### 使用方式
 
 ```
